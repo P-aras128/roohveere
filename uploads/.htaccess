@@ -1,0 +1,4 @@
+# SQL aur PHP files ko browser se khulne se roko
+<FilesMatch "\.(sql|php|phtml)$">
+  Require all denied
+</FilesMatch>
